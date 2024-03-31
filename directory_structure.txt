@@ -1,0 +1,137 @@
+.
+├── aws
+│   ├── README.md
+│   ├── THIRD_PARTY_LICENSES
+│   ├── dist
+│   │   ├── _awscrt.abi3.so
+│   │   ├── _cffi_backend.cpython-311-x86_64-linux-gnu.so
+│   │   ├── _ruamel_yaml.cpython-311-x86_64-linux-gnu.so
+│   │   ├── aws
+│   │   ├── aws_completer
+│   │   ├── awscli
+│   │   ├── base_library.zip
+│   │   ├── cryptography
+│   │   ├── docutils
+│   │   ├── lib-dynload
+│   │   ├── libbz2.so.1
+│   │   ├── libffi.so.5
+│   │   ├── liblzma.so.0
+│   │   ├── libpython3.11.so.1.0
+│   │   ├── libsqlite3.so.0
+│   │   └── libz.so.1
+│   └── install
+├── backend
+│   ├── node_modules
+│   │   ├── accepts
+│   │   ├── array-flatten
+│   │   ├── body-parser
+│   │   ├── bytes
+│   │   ├── call-bind
+│   │   ├── content-disposition
+│   │   ├── content-type
+│   │   ├── cookie
+│   │   ├── cookie-signature
+│   │   ├── cors
+│   │   ├── debug
+│   │   ├── define-data-property
+│   │   ├── depd
+│   │   ├── destroy
+│   │   ├── ee-first
+│   │   ├── encodeurl
+│   │   ├── es-define-property
+│   │   ├── es-errors
+│   │   ├── escape-html
+│   │   ├── etag
+│   │   ├── express
+│   │   ├── finalhandler
+│   │   ├── forwarded
+│   │   ├── fresh
+│   │   ├── function-bind
+│   │   ├── get-intrinsic
+│   │   ├── gopd
+│   │   ├── has-property-descriptors
+│   │   ├── has-proto
+│   │   ├── has-symbols
+│   │   ├── hasown
+│   │   ├── http-errors
+│   │   ├── iconv-lite
+│   │   ├── inherits
+│   │   ├── ipaddr.js
+│   │   ├── media-typer
+│   │   ├── merge-descriptors
+│   │   ├── methods
+│   │   ├── mime
+│   │   ├── mime-db
+│   │   ├── mime-types
+│   │   ├── ms
+│   │   ├── negotiator
+│   │   ├── object-assign
+│   │   ├── object-inspect
+│   │   ├── on-finished
+│   │   ├── parseurl
+│   │   ├── path-to-regexp
+│   │   ├── proxy-addr
+│   │   ├── qs
+│   │   ├── range-parser
+│   │   ├── raw-body
+│   │   ├── safe-buffer
+│   │   ├── safer-buffer
+│   │   ├── send
+│   │   ├── serve-static
+│   │   ├── set-function-length
+│   │   ├── setprototypeof
+│   │   ├── side-channel
+│   │   ├── statuses
+│   │   ├── toidentifier
+│   │   ├── type-is
+│   │   ├── unpipe
+│   │   ├── utils-merge
+│   │   └── vary
+│   ├── package-lock.json
+│   ├── package.json
+│   └── server.js
+├── directory_structure.txt
+├── frontend
+│   └── xmops-accelerate
+│       ├── README.md
+│       ├── amplify
+│       ├── build
+│       ├── build.zip
+│       ├── node_modules
+│       ├── package-lock.json
+│       ├── package.json
+│       ├── public
+│       └── src
+└── terraform
+    ├── highlyavailable
+    │   ├── deploy.sh
+    │   ├── ec2.tf
+    │   ├── efs.tf
+    │   ├── elb.tf
+    │   ├── iam.tf
+    │   ├── output.tf
+    │   ├── provider.tf
+    │   ├── rds.tf
+    │   ├── terraform.tfstate
+    │   ├── terraform.tfstate.backup
+    │   └── vpc.tf
+    ├── lightsail
+    │   ├── deploy.sh
+    │   ├── output.tf
+    │   ├── provider.tf
+    │   ├── ssh key pair.tf
+    │   ├── terraform.tfstate
+    │   ├── terraform.tfstate.backup
+    │   └── variable.tf
+    └── monolith
+        ├── deploy.sh
+        ├── ec2.tf
+        ├── network.tf
+        ├── outputs.tf
+        ├── provider.tf
+        ├── security.tf
+        ├── terraform.tfstate
+        ├── terraform.tfstate.backup
+        └── variables.tf
+
+84 directories, 50 files
