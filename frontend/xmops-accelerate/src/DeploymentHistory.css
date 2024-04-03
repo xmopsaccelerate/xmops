@@ -1,0 +1,50 @@
+/* DeploymentHistory.css */
+
+/* General table styles */
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: 'ProductSans-Bold';
+    background-color: white;
+  }
+  
+  .history-table th,
+  .history-table td {
+    text-align: center;
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Header styles */
+  .history-table thead {
+    background-color: #f4f4f4;
+  }
+  
+  /* Row hover effect */
+  .history-table tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* Button styles */
+  .destroy-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545; /* Bootstrap's btn-danger color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-family: 'ProductSans-Bold';                                                                                                                                                                                                                                    
+  }
+  
+  .destroy-button:hover {
+    background-color: #c82333; /* A shade darker on hover */
+  }
+  
+  /* Typography for consistency */
+  .history-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  

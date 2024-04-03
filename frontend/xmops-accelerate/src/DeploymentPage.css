@@ -18,6 +18,7 @@
       background-position: 96% 0%;
     }
     50% {
+
       background-position: 5% 100%;
     }
   }
@@ -37,6 +38,8 @@
     justify-content: center;
     align-items: center;
   }
+
+
   .app-container {
     text-align: center;
     max-width: 600px;
@@ -44,6 +47,10 @@
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     padding: 40px;
+    width: 600px;
+    transition: height 0.5s ease;
+    
+    
   }
   
   .deployment-item, .deployment-button {
@@ -52,7 +59,7 @@
     padding: 15px;
     margin: 10px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-size: 14px;
+    font-size: 16px;
     color: #666;
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s;
   }
@@ -69,7 +76,7 @@
     text-align: center;
     margin: 20px 5px; /* Adjusted for increased space between buttons */
     font-family: 'ProductSans-Regular', sans-serif;
-    letter-spacing: 0.7px;
+    
   }
   
   .login-card__header h1 {
@@ -85,6 +92,7 @@
   
   .login-footer hr {
     margin: 20px 0;
+  
   }
   
   .login-footer p {
@@ -123,7 +131,7 @@
   
   .login-footer p {
     font-family: 'ProductSans-Regular', sans-serif;
-    color: #848484;
+    color: #a7a7a7;
   }
   
   .header-container {
@@ -207,3 +215,134 @@
   .deployment-button span {
     font-family: 'ProductSans-Regular';
   }
+
+  .logout-button-container {
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    /* Add more styling as needed */
+  }
+
+
+/* */
+
+/* Container for the tab buttons */
+.tab-container {
+  display: inline-flex;
+  
+  width: 80%;
+  background-color: #ececec; /* Grey background that matches the non-active tabs */
+  border-radius: 10px; /* Slightly rounded corners for the container */
+  border: 2px solid #dddddd;
+  overflow: hidden; /* This will ensure the child elements adhere to the container's border radius */
+}
+
+/* General styling for tab buttons */
+.tab-button {
+  flex-grow: 1; /* Allows the buttons to grow and take up equal space */
+  padding: 10px 20px;
+  border: none; /* Removes the border */
+  background-color: #ececec; /* Grey background for non-active tabs */
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  font-size: 14px;
+  font-weight: bold;
+  color: #808080; /* Text color for the tabs */
+  text-align: center;
+  border-radius: 8px;
+  margin: 1px;
+}
+
+/* Styling for the active tab button */
+.tab-button.active {
+  background-color: #1a1a1a; /* White background for the active tab */
+  border-radius: 7px;
+ color: #ffffff;
+}
+
+/* Hover effect for non-active tabs */
+.tab-button:not(.active):hover {
+  background-color: #ffffff; /* White background on hover */
+  
+}
+
+/* Adjustments to the hover effect */
+.tab-button:not(.active):hover {
+  background-color: #ffffff;
+}
+
+/* You can add additional specific styles as needed to match your app's design */
+
+.sample-content {
+  background-color: #f9f9f9; /* Light grey background for contrast */
+  border-left: 5px solid #000000; /* Blue left border for a touch of color */
+  padding: 15px; /* Adds some space inside the borders */
+  margin: 10px 0; /* Adds space above and below the element */
+  font-family: Arial, sans-serif; /* Sets a clean, readable font */
+  font-size: 0.9rem; /* Sets a slightly smaller font size for this content */
+  color: #333; /* Darker text for readability */
+  white-space: pre-wrap; /* Ensures that the formatting (new lines, spaces) is preserved */
+}
+
+.logout-button
+{
+  border: none;
+    cursor: pointer;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-family: 'ProductSans-Regular', sans-serif;
+    border-radius: 3px;
+}
+
+.logout-button:hover
+{
+  border: none;
+  background-color: #000000;
+  color: #f9f9f9;
+    cursor: pointer;
+    text-align: center;
+   
+    font-family: 'ProductSans-Regular', sans-serif;
+    
+    border-radius: 3px;
+}
+.help
+{
+  margin-top: 30px;
+ 
+}
+
+.help {
+  color: rgb(66, 66, 66); /* Sets the color of the text within the .help class to white */
+}
+
+.help a {
+  color: rgb(101, 9, 163); /* Sets the color of links within the .help class to cyan */
+  text-decoration: none; /* Optional: Removes the underline from the link */
+}
+
+.help a:hover {
+  text-decoration: underline; /* Optional: Adds underline to the link on hover for better UX */
+}
+
+
+.about
+{
+  font-family: 'ProductSans-Regular', sans-serif;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 24px; /* Adjust the size of the icons */
+  color: #333; /* Icon color */
+}
+
+.social-icons a:hover {
+  color: #6e00c9; /* Icon hover color */
+}
